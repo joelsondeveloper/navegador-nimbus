@@ -1,0 +1,93 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header{
+    width: 100%;
+    /* background-color: orange; */
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: end;
+}
+
+.header__ul{
+    width: 20%;
+    min-width: 10rem;
+    max-width: 20rem;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    list-style: none;
+    padding: 1rem;
+}
+
+.header__ul a{
+    color: white;
+    text-decoration: none;
+}
+
+.section__pesquisar{
+    /* background-color: aqua; */
+    width: 70%;
+    max-width: 70rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    /* background-color: blue; */
+    margin: 10rem;
+}
+
+.header__ul img{
+    width: 4rem;
+}
+
+.atalhos__pesquisar img{
+    width: 4.4rem;
+}
+
+.pesquisar{
+    width: 100%;
+    /* background-color: orangered; */
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisar input{
+    width: 80%;
+    padding: 1.4rem 3rem;
+    /* background-color: orange; */
+    border-radius: 2.6rem;
+    border: none;
+}
+
+.atalhos__pesquisar{
+    display: flex;
+    gap: 4.4rem;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.atalho a  p{
+    font-size: 1.1rem;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
